@@ -1,6 +1,6 @@
 import telebot
 from api import *
-token = '6385241128:AAHOw7TCbd1IcMhiERFHwNpvmfEFOUAZKjQ'
+token = ''
 
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
